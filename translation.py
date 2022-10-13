@@ -1,14 +1,9 @@
-class Translation(object):
+classificado Translation(object):
 
-    START_TEXT = """Hello,
-
-This is a Telegram URL Upload Bot!
-
-<b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
-
-/help for more details..
-
-Support Group : @TroJanzSupport
+    START_TEXT = """Oi {},
+Eu sou o URL X Uploader!
+Você pode fazer upload de link direto HTTP/HTTPS, usando este bot!
+/help para mais detalhes!
 """
 
     HELP_USER = """Hai I'am a URL Uploader bot..
